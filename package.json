@@ -1,0 +1,16 @@
+{
+  "name": "simple-node-auth-api",
+  "version": "1.0.0",
+  "description": "API básica de registro/login con MySQL y Redis",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "redis": "^4.6.15"
+  }
+}
